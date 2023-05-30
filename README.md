@@ -27,6 +27,8 @@ description: Upload and download files.
 
 # cordova-plugin-file-transfer
 
+> This is a fork of the 1.7.1 version of [cordova-plugin-file-transfer](https://github.com/apache/cordova-plugin-file-transfer), cherry picking commit [feat!: remove deprecated whitelist usage (#307)](https://github.com/apache/cordova-plugin-file-transfer/pull/307/commits/bdecbc20f35dcedff06d1c2761da775fc50128ec) to fix issue [feat!: remove deprecated whitelist usage #307](https://github.com/apache/cordova-plugin-file-transfer/pull/307)
+
 This plugin allows you to upload and download files.
 
 This plugin defines global `FileTransfer`, `FileUploadOptions` constructors. Although in the global scope, they are not available until after the `deviceready` event.
