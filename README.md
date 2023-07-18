@@ -27,7 +27,11 @@ description: Upload and download files.
 
 # cordova-plugin-file-transfer
 
-> This is a fork of the 1.7.1 version of [cordova-plugin-file-transfer](https://github.com/apache/cordova-plugin-file-transfer), cherry picking commit [feat!: remove deprecated whitelist usage (#307)](https://github.com/apache/cordova-plugin-file-transfer/pull/307/commits/bdecbc20f35dcedff06d1c2761da775fc50128ec) to fix issue [feat!: remove deprecated whitelist usage #307](https://github.com/apache/cordova-plugin-file-transfer/pull/307)
+> This is a fork of the 1.7.1 version of [cordova-plugin-file-transfer](https://github.com/apache/cordova-plugin-file-transfer), cherry-picking the following commits:
+> - [feat!: remove deprecated whitelist usage (#307)](https://github.com/apache/cordova-plugin-file-transfer/pull/307/commits/bdecbc20f35dcedff06d1c2761da775fc50128ec) to fix issue [feat!: remove deprecated whitelist usage #307](https://github.com/apache/cordova-plugin-file-transfer/pull/307)
+> - [fix(ios): re-implement user agent overwrite (#268)](https://github.com/apache/cordova-plugin-file-transfer/pull/268/commits/938070343f7ca1e1b6dce68e47bf96a2f1afa20d) to fix issue [fix(ios): re-implement user agent overwrite #268](https://github.com/apache/cordova-plugin-file-transfer/pull/268)
+> 
+> This is done to avoid build errors on recent versions of cordova-android and cordova-ios 
 
 This plugin allows you to upload and download files.
 
